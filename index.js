@@ -18,6 +18,14 @@ io.on('connection', (socket) =>{
     })
 })
 
+app.get('/', (req, res) => {
+    res.send('Page d\'accueil');
+});
+
+app.get('/register', (req, res) => res.sendFile(__dirname + '/public/register.html'))
+
+app.get('/login', (req, res) => res.sendFile(__dirname + '/public/login.html'))
+
 server.listen(3000, () => {
     console.log('Port 3000 actif')
 })

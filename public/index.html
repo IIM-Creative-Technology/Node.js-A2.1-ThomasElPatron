@@ -7,6 +7,15 @@
     <title>CHAT</title>
 </head>
 <body>
+    <div>
+    <nav>
+        <a href="/login">login</a>
+        <a href="/register">register</a>
+        <a href="/">home</a>
+    </nav>
+    </div>
+
+
     <div id="messages"></div>
     <form action="">
         <input id="msg" type="text" autocomplete="off">
@@ -16,7 +25,6 @@
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script>
         $(function (){
-
             var socket = io()
             $("form").submit(function (e){
                 e.preventDefault();
