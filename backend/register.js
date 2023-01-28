@@ -1,3 +1,11 @@
+const mongoose = require('mongoose');
+const express = require('express');
+const app = express();
+
+console.log("suicide");
+
+
+/*
 const express = require('express');
 const app = express();
 const bcrypt = require('bcrypt');
@@ -78,3 +86,5 @@ app.post('/login', (req, res) => {
         });
     });
 });
+
+ */
