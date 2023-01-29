@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>login</title>
 </head>
 <body>
@@ -16,7 +15,7 @@
     </nav>
 </div>
 <section>
-  <form id="login-form">
+  <form id="login-form" method="post">
     <label for="username">Nom d'utilisateur:</label>
     <input type="text" id="username" name="username">
     <br>
@@ -27,6 +26,22 @@
   </form>
 
 </section>
-<script src="backend/login.js"></script>
+<script>
+  const options = {
+  method: 'POST',
+  headers: {
+      'Content-Type': 'application/json'
+  }
+};
+fetch('/login')
+  .then(response => {
+      if (response.ok) {
+        console.log('test');
+          return response;
+      } else {
+          throw new Error('Erreur de connexion');
+      }
+  })
+</script>
 </body>
 </html>
