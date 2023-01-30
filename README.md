@@ -13,7 +13,7 @@ GET /messages:
 This route returns the entire messages array as a response.
 
 <h2>Travail réalisé:</h2>
-Thomas: Chat fonctionnel, documentation, PowerPoint.
+Thomas: Chat fonctionnel, README (présentation, documentation), PowerPoint.
 
 
 
