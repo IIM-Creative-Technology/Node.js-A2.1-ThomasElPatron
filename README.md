@@ -4,7 +4,7 @@
 
 Import the project in your document: -> git init -> git clone git@github.com:IIM-Creative-Technology/Node.js-A2.1-ThomasElPatron.git
 
-<h2>DOCUMENTATION:</h2>
+<h2>Documentation:</h2>
 
 POST /message:
 This route accepts a JSON payload containing a message key in the request body. It pushes the message to the messages array and emits the message to all connected clients using Socket.IO. The response status is set to 200.
