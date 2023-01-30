@@ -12,6 +12,10 @@ This route accepts a JSON payload containing a message key in the request body. 
 GET /messages:
 This route returns the entire messages array as a response.
 
+<h2>Répartition du travail:</h2>
+Thomas: Chat fonctionnel, documentation, PowerPoint.
+
+
 
 
 
