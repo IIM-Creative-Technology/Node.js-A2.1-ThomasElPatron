@@ -14,7 +14,7 @@ This route returns the entire messages array as a response.
 
 <h2>Travail réalisé:</h2>
 Thomas: Chat fonctionnel, README (présentation, documentation), PowerPoint.<br>
-Marvin: Work on the login/register and assist for the routes.<br>
+Marvin: Work on the login/register.<br>
 Martin: Work on the register/login.<br>
 Quentin: Work on the game.<br>
 Antoine: Work on the game.
