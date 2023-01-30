@@ -7,7 +7,7 @@ Import the project in your document: -> git init -> git clone git@github.com:IIM
 <h2>Documentation:</h2>
 
 POST /message:
-This route accepts a JSON payload containing a message key in the request body. It pushes the message to the messages array and emits the message to all connected clients using Socket.IO. The response status is set to 200.
+This route accepts a JSON payload containing a message key in the request body. It pushes the message to the messages array and emits the message to all connected clients using Socket.IO.
 
 GET /messages:
 This route returns the entire messages array as a response.
